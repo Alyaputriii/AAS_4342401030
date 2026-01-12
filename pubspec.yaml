@@ -1,0 +1,36 @@
+name: sleep_tracker
+description: Aplikasi Pencatatan Jam Tidur
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.65.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+  
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+flutter_launcher_name:
+  name: "Sleep Tracker"
